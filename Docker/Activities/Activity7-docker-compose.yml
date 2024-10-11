@@ -7,6 +7,6 @@ services:
              "--protected-mode", "no"]
     node-app:
      build: ./
-     image: 'docker.io/sivakumar527/visits'
+     image: 'docker.io/sivakumargnp527/visits'
      ports:
       - '8081:8081'
